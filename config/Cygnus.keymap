@@ -78,16 +78,16 @@
 
         default_layer {
             bindings = <
-&lt 6 Q           &kp W           &kp E        &lt 5 R          &kp T                                      &kp Y        &kp U        &lt 1 I      &kp O       &kp P
+&lt 6 Q           &kp W           &kp E        &lt 5 R          &kp T                                      &kp Y        &kp U        &lt 2 I      &kp O       &kp P
 &mt LSHIFT A      &mt LEFT_ALT S  &mt LCTRL D  &mt LSHIFT F     &kp G            &mkp RCLK      &kp EQUAL  &kp H        &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RWIN MINUS
 &mt LEFT_SHIFT Z  &kp X           &kp C        &kp V            &kp B            &mkp LCLK      &kp ESC    &kp N        &kp M        &kp COMMA    &kp DOT     &mt LEFT_SHIFT SLASH
-&kp LALT          &kp LCTRL       &kp LSHFT    &lt 6 LG(LANG1)  &lt 3 BACKSPACE  &lt 2 DEL      &lt 2 RET  &lt 3 SPACE                                        &kp LGUI
+&kp LALT          &kp LCTRL       &kp LSHFT    &lt 4 LG(LANG1)  &lt 3 BACKSPACE  &lt 1 DEL      &lt 1 RET  &lt 3 SPACE                                        &kp LGUI
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
         };
 
-        NUM {
+        NUM-SYMBOL {
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR   &kp AMPERSAND
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &trans         &kp TILDE  &kp AT_SIGN      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &kp ASTERISK
