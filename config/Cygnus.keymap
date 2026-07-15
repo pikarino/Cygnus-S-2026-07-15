@@ -22,6 +22,26 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
         };
+
+        cmbTab {
+            bindings = <&kp TAB>;
+            key-positions = <30 31>;
+        };
+
+        cmbe {
+            bindings = <&kp ESCAPE>;
+            key-positions = <30 31>;
+        };
+
+        cmbLang1 {
+            bindings = <&kp LANG1>;
+            key-positions = <18 19>;
+        };
+
+        cmbLang2 {
+            bindings = <&kp LANG2>;
+            key-positions = <13 12>;
+        };
     };
 
     macros {
