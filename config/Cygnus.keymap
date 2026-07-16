@@ -30,7 +30,7 @@
 
         Lang2 {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <23 24>;
+            key-positions = <13 12>;
         };
 
         Caps {
@@ -40,7 +40,7 @@
 
         Lang1 {
             bindings = <&kp LANGUAGE_1>;
-            key-positions = <31 32>;
+            key-positions = <18 19>;
         };
 
         Semicolon {
@@ -56,6 +56,16 @@
         Colon {
             bindings = <&kp COLON>;
             key-positions = <30 31>;
+        };
+
+        Lang2_2 {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <23 24>;
+        };
+
+        Lang1_2 {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <31 32>;
         };
     };
 
