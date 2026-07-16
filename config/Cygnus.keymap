@@ -78,10 +78,10 @@
 
         Base {
             bindings = <
-&lt 7 Q           &kp W           &kp E        &lt 6 R           &kp T                                      &kp Y        &lt 5 U      &kp I        &kp O       &kp P
-&mt LSHIFT A      &mt LEFT_ALT S  &mt LCTRL D  &mt LSHIFT F      &kp G            &mkp RCLK      &kp EQUAL  &kp H        &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RWIN MINUS
-&mt LEFT_SHIFT Z  &kp X           &kp C        &kp V             &kp B            &mkp LCLK      &kp ESC    &kp N        &kp M        &kp COMMA    &kp DOT     &mt LEFT_SHIFT SLASH
-&kp LALT          &kp LCTRL       &kp LSHFT    &lt 5 LANGUAGE_1  &lt 3 BACKSPACE  &lt 9 DEL      &lt 9 RET  &lt 3 SPACE                                        &kp LGUI
+&lt 7 Q           &kp W           &kp E        &lt 6 R       &kp T                                      &kp Y        &lt 5 U      &kp I        &kp O       &kp P
+&mt LSHIFT A      &mt LEFT_ALT S  &mt LCTRL D  &mt LSHIFT F  &kp G            &mkp RCLK      &kp EQUAL  &kp H        &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RWIN MINUS
+&mt LEFT_SHIFT Z  &kp X           &lt 4 C      &lt 1 V       &kp B            &mkp LCLK      &kp ESC    &kp N        &lt 1 M      &kp COMMA    &kp DOT     &mt LEFT_SHIFT SLASH
+&kp LALT          &kp LCTRL       &kp LSHFT    &lt 5 ESCAPE  &lt 3 BACKSPACE  &lt 2 DEL      &lt 2 RET  &lt 5 SPACE                                        &kp LGUI
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
