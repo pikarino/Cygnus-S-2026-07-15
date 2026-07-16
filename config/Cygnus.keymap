@@ -63,8 +63,8 @@
             key-positions = <23 24>;
         };
 
-        Lang1_2 {
-            bindings = <&kp LANGUAGE_1>;
+        Equal {
+            bindings = <&kp EQUAL>;
             key-positions = <31 32>;
         };
     };
