@@ -58,8 +58,8 @@
             key-positions = <30 31>;
         };
 
-        Lang2_2 {
-            bindings = <&kp LANGUAGE_2>;
+        Esc_2 {
+            bindings = <&kp ESCAPE>;
             key-positions = <23 24>;
         };
 
