@@ -37,6 +37,21 @@
             bindings = <&kp CAPS>;
             key-positions = <13 18>;
         };
+
+        Lang1 {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <31 32>;
+        };
+
+        Semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <6 7>;
+        };
+
+        Doublequote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <7 8>;
+        };
     };
 
     macros {
