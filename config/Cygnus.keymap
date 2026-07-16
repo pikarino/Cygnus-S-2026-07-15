@@ -78,10 +78,10 @@
 
         Base {
             bindings = <
-&lt 7 Q           &kp W           &kp E        &lt 6 R       &kp T                                      &kp Y        &lt 5 U      &kp I        &kp O       &kp P
-&mt LSHIFT A      &mt LEFT_ALT S  &mt LCTRL D  &mt LSHIFT F  &kp G            &mkp RCLK      &kp EQUAL  &kp H        &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RWIN MINUS
-&mt LEFT_SHIFT Z  &kp X           &lt 4 C      &lt 1 V       &kp B            &mkp LCLK      &kp ESC    &kp N        &lt 1 M      &kp COMMA    &kp DOT     &mt LEFT_SHIFT SLASH
-&kp LALT          &kp LCTRL       &kp LSHFT    &lt 5 ESCAPE  &lt 3 BACKSPACE  &lt 2 DEL      &lt 2 RET  &lt 5 SPACE                                        &kp LGUI
+&lt 7 Q       &kp W           &kp E        &kp R         &kp T                                      &kp Y        &kp U        &kp I        &kp O       &kp P
+&mt LSHIFT A  &mt LEFT_ALT S  &mt LCTRL D  &mt LSHIFT F  &kp G            &mkp RCLK      &kp EQUAL  &kp H        &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RWIN MINUS
+&kp Z         &kp X           &lt 4 C      &lt 1 V       &kp B            &mkp LCLK      &kp ESC    &kp N        &lt 1 M      &kp COMMA    &kp DOT     &mt LEFT_SHIFT SLASH
+&kp LALT      &kp LCTRL       &kp LSHFT    &lt 6 ESCAPE  &lt 3 BACKSPACE  &lt 2 DEL      &lt 2 RET  &lt 5 SPACE                                        &kp LGUI
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -152,7 +152,7 @@
             >;
         };
 
-        SYMBOL_NUMBER {
+        Old_SYMBOL_NUMBER {
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR   &kp AMPERSAND
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &trans         &kp TILDE  &kp AT_SIGN      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &kp SQT
@@ -161,7 +161,7 @@
             >;
         };
 
-        FUNCTION {
+        Old_FUNCTION {
             bindings = <
 &kp F1   &kp F2   &kp F3   &kp F4   &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
 &kp F5   &kp F6   &kp F7   &kp F8   &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
