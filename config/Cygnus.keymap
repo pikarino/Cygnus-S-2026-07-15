@@ -78,16 +78,25 @@
 
         default_layer {
             bindings = <
-&lt 6 Q           &kp W           &kp E        &lt 5 R           &kp T                                      &kp Y        &lt 4 U      &kp I        &kp O       &kp P
+&lt 7 Q           &kp W           &kp E        &lt 6 R           &kp T                                      &kp Y        &lt 5 U      &kp I        &kp O       &kp P
 &mt LSHIFT A      &mt LEFT_ALT S  &mt LCTRL D  &mt LSHIFT F      &kp G            &mkp RCLK      &kp EQUAL  &kp H        &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RWIN MINUS
 &mt LEFT_SHIFT Z  &kp X           &kp C        &kp V             &kp B            &mkp LCLK      &kp ESC    &kp N        &kp M        &kp COMMA    &kp DOT     &mt LEFT_SHIFT SLASH
-&kp LALT          &kp LCTRL       &kp LSHFT    &lt 4 LANGUAGE_1  &lt 2 BACKSPACE  &lt 3 DEL      &lt 3 RET  &lt 2 SPACE                                        &kp LGUI
+&kp LALT          &kp LCTRL       &kp LSHFT    &lt 5 LANGUAGE_1  &lt 3 BACKSPACE  &lt 4 DEL      &lt 4 RET  &lt 3 SPACE                                        &kp LGUI
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
         };
 
-        SYMBOL {
+        Symbol {
+            bindings = <
+&trans     &trans        &trans     &trans      &trans                           &kp CARET      &kp GRAVE          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE
+&kp EXCL   &kp AT        &kp HASH   &kp DOLLAR  &kp PERCENT  &trans      &trans  &kp AMPERSAND  &kp SQT            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
+&kp SLASH  &kp ASTERISK  &kp MINUS  &kp PLUS    &trans       &trans      &trans  &kp PIPE       &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NON_US_BACKSLASH
+&trans     &trans        &trans     &trans      &trans       &trans      &trans  &trans                                                                         &trans
+            >;
+        };
+
+        SYMBOL_NUMBER {
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR   &kp AMPERSAND
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &trans         &kp TILDE  &kp AT_SIGN      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &kp SQT
@@ -119,7 +128,7 @@
         MOUSE {
             bindings = <
 &trans       &trans       &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(W)                         &kp LC(W)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans       &trans
-&lt 5 SPACE  &lt 4 SPACE  &mkp LCLK        &mkp RCLK          &mkp MCLK  &mkp RCLK      &trans  &mkp MCLK  &mkp LCLK        &mkp RCLK          &lt 4 SPACE  &lt 5 SPACE
+&lt 6 SPACE  &lt 5 SPACE  &mkp LCLK        &mkp RCLK          &mkp MCLK  &mkp RCLK      &trans  &mkp MCLK  &mkp LCLK        &mkp RCLK          &lt 5 SPACE  &lt 6 SPACE
 &trans       &trans       &trans           &trans             &trans     &mkp LCLK      &trans  &trans     &mkp MB4         &mkp MB5           &trans       &trans
 &trans       &trans       &trans           &trans             &trans     &trans         &trans  &trans                                                      &trans
             >;
