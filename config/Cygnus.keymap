@@ -114,19 +114,19 @@
 
         Symbol {
             bindings = <
-&none                 &none                 &none           &kp EQUAL          &none                          &kp CARET      &kp GRAVE          &kp LEFT_BRACE              &kp RIGHT_BRACE                  &kp TILDE
-&mt LWIN EXCLAMATION  &mt LEFT_ALT AT_SIGN  &mt LCTRL HASH  &mt LSHIFT DOLLAR  &kp PERCENT  &none      &to 0  &kp AMPERSAND  &mt RSHIFT SQT     &mt RCTRL LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RWIN UNDERSCORE
-&kp SLASH             &kp ASTERISK          &kp MINUS       &kp PLUS           &none        &none      &none  &kp PIPE       &kp DOUBLE_QUOTES  &kp LEFT_BRACKET            &kp RIGHT_BRACKET                &kp NON_US_BACKSLASH
-&none                 &none                 &none           &none              &none        &none      &none  &none                                                                                          &none
+&none                 &none                 &none           &kp EQUAL          &none                            &kp CARET      &kp GRAVE          &kp LEFT_BRACE              &kp RIGHT_BRACE                  &kp TILDE
+&mt LWIN EXCLAMATION  &mt LEFT_ALT AT_SIGN  &mt LCTRL HASH  &mt LSHIFT DOLLAR  &kp PERCENT  &none       &to 0   &kp AMPERSAND  &mt RSHIFT SQT     &mt RCTRL LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RWIN UNDERSCORE
+&kp SLASH             &kp ASTERISK          &kp MINUS       &kp PLUS           &none        &none       &none   &kp PIPE       &kp DOUBLE_QUOTES  &kp LEFT_BRACKET            &kp RIGHT_BRACKET                &kp NON_US_BACKSLASH
+&none                 &none                 &none           &trans             &trans       &trans      &trans  &trans                                                                                         &none
             >;
         };
 
         Func_Num {
             bindings = <
-&kp F1                 &kp F2                 &kp F3              &kp F4               &kp F5                    &kp F6   &kp F7         &kp F8        &kp F9            &kp F10
-&mt LEFT_WIN NUMBER_1  &mt LEFT_ALT NUMBER_2  &mt LCTRL NUMBER_3  &mt LSHIFT NUMBER_4  &kp N5  &none      &to 0  &kp N6   &mt RSHIFT N7  &mt RCTRL N8  &mt RIGHT_ALT N9  &mt RWIN N0
-&kp FSLH               &kp ASTERISK           &kp MINUS           &kp PLUS             &none   &none      &none  &kp F11  &kp F12        &kp COMMA     &kp DOT           &none
-&none                  &none                  &none               &none                &none   &none      &none  &none                                                   &none
+&kp F1                 &kp F2                 &kp F3              &kp F4               &kp F5                      &kp F6   &kp F7         &kp F8        &kp F9            &kp F10
+&mt LEFT_WIN NUMBER_1  &mt LEFT_ALT NUMBER_2  &mt LCTRL NUMBER_3  &mt LSHIFT NUMBER_4  &kp N5  &none       &to 0   &kp N6   &mt RSHIFT N7  &mt RCTRL N8  &mt RIGHT_ALT N9  &mt RWIN N0
+&kp FSLH               &kp ASTERISK           &kp MINUS           &kp PLUS             &none   &none       &none   &kp F11  &kp F12        &kp COMMA     &kp DOT           &none
+&none                  &none                  &none               &trans               &trans  &trans      &trans  &trans                                                  &none
             >;
         };
 
