@@ -18,29 +18,24 @@
     combos {
         compatible = "zmk,combos";
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        cmbTab {
-            bindings = <&kp TAB>;
-            key-positions = <30 31>;
-        };
-
-        cmbe {
+        Esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <31 32>;
+            key-positions = <1 2>;
         };
 
-        cmbLang1 {
-            bindings = <&kp LANG1>;
-            key-positions = <18 19>;
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
         };
 
-        cmbLang2 {
-            bindings = <&kp LANG2>;
-            key-positions = <13 12>;
+        Lang2 {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <23 24>;
+        };
+
+        Caps {
+            bindings = <&kp CAPS>;
+            key-positions = <13 18>;
         };
     };
 
