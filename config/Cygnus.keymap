@@ -114,10 +114,10 @@
 
         Symbol {
             bindings = <
-&none                 &none                 &none           &kp EQUAL          &none                          &kp CARET      &kp GRAVE          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE
-&mt LWIN EXCLAMATION  &mt LEFT_ALT AT_SIGN  &mt LCTRL HASH  &mt LSHIFT DOLLAR  &kp PERCENT  &none      &none  &kp AMPERSAND  &kp SQT            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
-&kp SLASH             &kp ASTERISK          &kp MINUS       &kp PLUS           &none        &none      &none  &kp PIPE       &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NON_US_BACKSLASH
-&none                 &none                 &none           &none              &none        &none      &none  &none                                                                          &none
+&none                 &none                 &none           &kp EQUAL          &none                          &kp CARET      &kp GRAVE          &kp LEFT_BRACE              &kp RIGHT_BRACE                  &kp TILDE
+&mt LWIN EXCLAMATION  &mt LEFT_ALT AT_SIGN  &mt LCTRL HASH  &mt LSHIFT DOLLAR  &kp PERCENT  &none      &none  &kp AMPERSAND  &mt RSHIFT SQT     &mt RCTRL LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RWIN UNDERSCORE
+&kp SLASH             &kp ASTERISK          &kp MINUS       &kp PLUS           &none        &none      &none  &kp PIPE       &kp DOUBLE_QUOTES  &kp LEFT_BRACKET            &kp RIGHT_BRACKET                &kp NON_US_BACKSLASH
+&none                 &none                 &none           &none              &none        &none      &none  &none                                                                                          &none
             >;
         };
 
