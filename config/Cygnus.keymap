@@ -103,10 +103,10 @@
 
         Base {
             bindings = <
-&lt 7 Q       &kp W           &kp E        &kp R         &kp T                                      &kp Y        &kp U        &kp I        &kp O       &kp P
-&mt LSHIFT A  &mt LEFT_ALT S  &mt LCTRL D  &mt LSHIFT F  &kp G            &mkp RCLK      &kp EQUAL  &kp H        &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RWIN MINUS
-&kp Z         &kp X           &lt 4 C      &lt 1 V       &kp B            &mkp LCLK      &kp ESC    &kp N        &lt 1 M      &kp COMMA    &kp DOT     &mt LEFT_SHIFT SLASH
-&kp LALT      &kp LCTRL       &kp LSHFT    &lt 6 ESCAPE  &lt 3 BACKSPACE  &lt 2 DEL      &lt 2 RET  &lt 5 SPACE                                        &kp LGUI
+&lt 7 Q       &kp W           &kp E        &lt 6 R       &kp T                                      &kp Y        &kp U        &kp I        &kp O       &kp P
+&mt LSHIFT A  &mt LEFT_ALT S  &mt LCTRL D  &mt LSHIFT F  &kp G            &mkp RCLK      &to 1      &kp H        &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RWIN MINUS
+&kp Z         &kp X           &lt 4 C      &lt 1 V       &kp B            &mkp LCLK      &to 2      &kp N        &lt 1 M      &kp COMMA    &kp DOT     &mt LEFT_SHIFT SLASH
+&kp LALT      &kp LCTRL       &kp LSHFT    &lt 6 ESCAPE  &lt 3 BACKSPACE  &lt 2 DEL      &lt 2 RET  &lt 1 SPACE                                        &kp LGUI
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -115,7 +115,7 @@
         Symbol {
             bindings = <
 &none                 &none                 &none           &kp EQUAL          &none                          &kp CARET      &kp GRAVE          &kp LEFT_BRACE              &kp RIGHT_BRACE                  &kp TILDE
-&mt LWIN EXCLAMATION  &mt LEFT_ALT AT_SIGN  &mt LCTRL HASH  &mt LSHIFT DOLLAR  &kp PERCENT  &none      &none  &kp AMPERSAND  &mt RSHIFT SQT     &mt RCTRL LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RWIN UNDERSCORE
+&mt LWIN EXCLAMATION  &mt LEFT_ALT AT_SIGN  &mt LCTRL HASH  &mt LSHIFT DOLLAR  &kp PERCENT  &none      &to 0  &kp AMPERSAND  &mt RSHIFT SQT     &mt RCTRL LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RWIN UNDERSCORE
 &kp SLASH             &kp ASTERISK          &kp MINUS       &kp PLUS           &none        &none      &none  &kp PIPE       &kp DOUBLE_QUOTES  &kp LEFT_BRACKET            &kp RIGHT_BRACKET                &kp NON_US_BACKSLASH
 &none                 &none                 &none           &none              &none        &none      &none  &none                                                                                          &none
             >;
@@ -124,7 +124,7 @@
         Func_Num {
             bindings = <
 &kp F1                 &kp F2                 &kp F3              &kp F4               &kp F5                    &kp F6   &kp F7         &kp F8        &kp F9            &kp F10
-&mt LEFT_WIN NUMBER_1  &mt LEFT_ALT NUMBER_2  &mt LCTRL NUMBER_3  &mt LSHIFT NUMBER_4  &kp N5  &none      &none  &kp N6   &mt RSHIFT N7  &mt RCTRL N8  &mt RIGHT_ALT N9  &mt RWIN N0
+&mt LEFT_WIN NUMBER_1  &mt LEFT_ALT NUMBER_2  &mt LCTRL NUMBER_3  &mt LSHIFT NUMBER_4  &kp N5  &none      &to 0  &kp N6   &mt RSHIFT N7  &mt RCTRL N8  &mt RIGHT_ALT N9  &mt RWIN N0
 &kp FSLH               &kp ASTERISK           &kp MINUS           &kp PLUS             &none   &none      &none  &kp F11  &kp F12        &kp COMMA     &kp DOT           &none
 &none                  &none                  &none               &none                &none   &none      &none  &none                                                   &none
             >;
