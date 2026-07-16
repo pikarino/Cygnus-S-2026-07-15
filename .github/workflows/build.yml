@@ -2,4 +2,6 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
+# 💡 以下の1行（if文）を追加します 「コミットメッセージに [build] と書いた時だけビルドする」
+    if: "contains(github.event.head_commit.message, '[build]') || github.event_name == 'workflow_dispatch'"
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
