@@ -52,6 +52,11 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <7 8>;
         };
+
+        Colon {
+            bindings = <&kp COLON>;
+            key-positions = <30 31>;
+        };
     };
 
     macros {
