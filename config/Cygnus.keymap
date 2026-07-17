@@ -103,7 +103,7 @@
 
         Base {
             bindings = <
-&lt 7 Q       &kp W           &kp E        &lt 6 R       &kp T                                      &kp Y        &kp U        &kp I        &kp O         &kp P
+&lt 7 Q       &kp W           &kp E        &kp R         &kp T                                      &kp Y        &kp U        &kp I        &kp O         &kp P
 &mt LSHIFT A  &mt LEFT_ALT S  &mt LCTRL D  &mt LSHIFT F  &kp G            &mkp RCLK      &to 1      &kp H        &mt RSHFT J  &mt RCTRL K  &mt RALT L    &mt RWIN MINUS
 &lt 5 Z       &lt 6 X         &kp C        &lt 1 V       &kp B            &mkp LCLK      &to 2      &kp N        &lt 1 M      &kp COMMA    &lt 6 PERIOD  &lt 5 SLASH
 &kp LALT      &kp LCTRL       &kp LSHFT    &lt 4 ESCAPE  &lt 3 BACKSPACE  &lt 2 DEL      &lt 2 RET  &lt 1 SPACE                                          &kp LGUI
